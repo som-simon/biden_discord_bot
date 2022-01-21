@@ -7,4 +7,5 @@ main.py is obviously main
 cogs in cogs folder gets imported
 
 requirements:
+
 requirements.txt
