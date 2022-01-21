@@ -6,8 +6,6 @@ from bs4 import BeautifulSoup
 import requests
 import random
 from itertools import cycle
-from no_sleepy_time import jooo_biden_wake_up
-
 
 
 if __name__ == '__main__':
@@ -68,5 +66,4 @@ if __name__ == '__main__':
   #         f'"{quote}"\nJoe Biden {round(bot.latency * 1000)}ms')
 
 
-  jooo_biden_wake_up()
   bot.run(os.getenv('TOKEN'))
