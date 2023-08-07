@@ -16,7 +16,7 @@ if __name__ == '__main__':
       if file.endswith('.py'):
           bot.load_extension(f'cogs.{file[:-3]}')
 
-  bot.author_id = 578521697532117002
+  bot.author_id = doplnit id
 
 
   @bot.event
@@ -66,4 +66,4 @@ if __name__ == '__main__':
   #         f'"{quote}"\nJoe Biden {round(bot.latency * 1000)}ms')
 
 
-  bot.run(os.getenv('TOKEN'))
+  bot.run(os.getenv(sem vlozit token))
